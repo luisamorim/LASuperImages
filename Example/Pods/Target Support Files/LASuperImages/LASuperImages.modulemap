@@ -1,0 +1,6 @@
+framework module LASuperImages {
+  umbrella header "LASuperImages-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -7,18 +7,15 @@
 //
 
 import UIKit
+import LASuperImages
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var landscapeImageView: UIImageView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        landscapeImageView.roundViewWith(borderColor: UIColor.white, borderWidth: 5.0)
     }
-
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
-    }
-
 }
 
